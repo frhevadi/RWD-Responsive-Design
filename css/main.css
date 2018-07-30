@@ -1,0 +1,233 @@
+html {
+    font-size:16px;
+}
+
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+ h1, h3, h4 {
+	color: black;
+	text-transform: uppercase;
+}
+
+
+/*The widths are in a percentage!*/
+header {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+header h1{
+  border-bottom: 3px solid #77a466;
+	font-size: 1.875em;
+	text-align: center;
+	width: auto;
+	padding: 10px 0;
+}
+
+header span {
+	color: #77a466;
+}
+
+header nav {
+	list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+header nav a {
+  display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.875em;
+	color:#77a466;
+  line-height: 2em;
+}
+
+
+/* NOTE: ****** TOP SECTION *************/
+/*The widths are in a percentage!*/
+.top-section{
+	width: 90%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 1.875em;
+}
+
+.top-section h3 {
+    font-size: 0.68em;
+    color: #77a466;
+    text-align: left;
+    padding: 15px 0;
+}
+
+.top-section p {
+	padding: 0 5px;
+	line-height: 25px;
+	font-size: 0.53em;
+	font-weight: 500;
+}
+
+.main-image {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.main-image img {
+	width: 100%;
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+
+
+/* NOTE: ****** BOTTOM SECTION *************/
+
+.bottom-section {
+	width: 90%;
+	margin: 0 auto;
+	clear: both;
+}
+
+.bottom-section h4 {
+	font-size: 0.75em;
+}
+
+.bottom-section p {
+	color: #333;
+	font-size: 0.875em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.menu {
+	list-style: none;
+	padding: 0px;
+}
+
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+	font-weight: 500;
+	font-size: 0.875em;
+}
+
+.reviews {
+	line-height: 21px;
+}
+
+.address {
+	line-height: 24px;
+	text-align: center;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	width: 90%;
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer h4{
+	font-size: 0.75em;
+}
+
+footer span {
+	font-family: "Wisdom Script", script;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.87em;
+}
+
+
+/* NOTE: /* Tablet styles here */
+@media all and (min-width:768px) {
+  header nav a {
+    display: block;
+  }
+
+}
+
+/* NOTE:  /* Desktop styles here */
+@media all and (min-width:940px) {
+  header {
+  	height: 110px;
+  }
+
+  header h1{
+    border-bottom: none;
+    text-align: left;
+  	float: left;
+  	padding: 15px 0;
+  }
+
+  header nav {
+    float: right;
+    width: 70%;
+    text-align: right;
+    padding: 45px 0px;
+  }
+
+  header nav a {
+    display: inline-block;
+  	padding: 0 10px;
+  }
+
+  .bottom-section p {
+  	padding: 0 30px;
+  }
+
+  .section-one,
+  .section-two,
+  .section-three {
+  	width: 33%;
+    height: auto;
+  }
+
+  .section-one,
+  .section-two {
+  	border-right: 1px solid #eee;
+  }
+
+   .section-one h4 {
+  	padding: 10px 5px;
+  }
+
+  .section-two h4,
+  .section-three h4 {
+  	padding: 10px 30px;
+  }
+
+  .menu li {
+  	padding: 10px 5px;
+  }
+
+  .address {
+  	text-align: left;
+  }
+
+}
